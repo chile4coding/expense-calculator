@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chile | Budget Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Budget Expense Calculator</h1>
+    </header>
+    <section id="form-section">
+      <form>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="form-control">
+          <label for="marital-status">Marital status</label>
+          <input type="text" name="marital-status" id="marital-status" />
+        </div>
+        <div class="form-control"></div>
+        <div class="form-control">
+          <label for="age">Age</label>
+          <input type="text" age="age" id="age" />
+        </div>
+        <div class="form-control">
+          <label for="dependent">Number of Dependents</label>
+          <input type="text" name="dependent" id="dependent" />
+        </div>
+        <div class="form-control">
+          <label for="salary">Mothly Salary ( ₦ )</label>
+          <input
+            type="text"
+            salary="salary"
+            id="salary"
+            placeholder="Enter salary in ( ₦ )"
+          />
+        </div>
+        <div class="form-control">
+          <label for="income">Other Income</label>
+          <input type="text" name="income" id="income" />
+        </div>
+        <div class="form-control">
+          <label for="electricity">Electricity Bill</label>
+          <input type="text" name="electricity" id="electricity" />
+        </div>
+        <div class="form-control">
+          <label for="dependentBill">Dependent Bill</label>
+          <input type="text" name="dependentBill" id="dependentBill" />
+        </div>
+        <div class="form-control">
+          <label for="transport">Transportation</label>
+          <input type="text" name="transport" id="transport" />
+        </div>
+        <div class="form-control">
+          <label for="child">Child/Children Care</label>
+          <input type="text" name="child" id="child" />
+        </div>
+        <div class="form-control">
+          <label for="food">Food Stuff</label>
+          <input type="text" name="food" id="food" />
+        </div>
+        <div class="form-control">
+          <label for="cloth">Clothing</label>
+          <input type="text" name="cloth" id="cloth" />
+        </div>
+        <div class="form-control">
+          <label for="health">Personal Health</label>
+          <input type="text" name="health" id="health" />
+        </div>
+        <div class="form-control">
+          <label for="grooming">Beauty and Grooming</label>
+          <input type="text" name="grooming" id="grooming" />
+        </div>
+        <div class="form-control">
+          <label for="gas">Gas</label>
+          <input type="text" name="gas" id="gas" />
+        </div>
+        <div class="form-control">
+          <label for="child-saving">Child Saving</label>
+          <input type="text" name="child-saving" id="child-saving" />
+        </div>
+        <div class="form-control">
+          <label for="saving">Personal Saving</label>
+          <input type="text" name="saving" id="saving" />
+        </div>
+        <button id="cal-btn">Calculate budget</button>
+      </form>
+    </section>
+    <section id="result-display">
+      <h2 id="result">Results</h2>
+      <p id="userName">Name:</p>
+      <p id="userStatus">Marital Status:</p>
+      <p id="userAge">Age</p>
+      <p id="userTotal">Total income</p>
+      <p id="userBalance">Balance</p>
+      <p id="userDependent">Dependents: </p>
+      <p id="elect-bill">Electricity Bill: <span>10%</span></p>
+      <p id="usertransport">Transportation: <span>10%</span></p>
+      <p id="userChild">Child/Children Care: <span>10%</span></p>
+      <p id="userFood">Food Stuff: <span>10%</span></p>
+      <p id="userClothing">Clothing: <span>10%</span></p>
+      <p id="userHealth">Personal Health: <span>10%</span></p>
+      <p id="usergrooming">Beauty and Grooming: <span>10%</span></p>
+      <p id="usergas">Gas: <span>10%</span></p>
+      <p id="userChildSaving">Child Saving: <span>10%</span></p>
+      <p id="userPersonalSaving">Personal Saving: <span>10%</span></p>
+      <button id="reset-btn">Perfom Calculation Again</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
